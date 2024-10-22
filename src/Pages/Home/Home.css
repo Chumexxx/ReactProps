@@ -1,0 +1,177 @@
+.Home{
+    padding: 100px;
+}
+
+.PC{
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+.PC1{
+    width: 300px;
+    border: none;
+    border-radius: 15px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    font-weight: 800;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ddd;
+}
+  
+.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #444444;
+}
+
+#profile1{
+    background-color: rgb(149, 149, 180);
+    color: white;
+}
+
+#profile2{
+    background-color: rgb(37, 37, 78);
+    color: white;
+}
+
+#profile3{
+    background-color: rgb(63, 63, 94);
+    color: white;
+}
+
+#profile4{
+    background-color: rgb(99, 99, 116);
+    color: white;
+}
+
+.PC1:hover {
+    animation: shake 0.5s;
+    transform: scale(1.1);
+    transform: translateY(-10px);
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+
+
+.Products{
+    display: flex;
+    gap: 240px;
+    flex-wrap: wrap;
+    
+}
+
+.Product1{
+    width: 200px;
+    height: 450px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: white;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.Product1:hover {
+    animation: shake 0.5s;
+    transform: scale(1.1);
+    transform: translateY(-10px);
+}
+
+#product1{
+    background-color: rgb(221, 54, 54);
+    color: white;
+}
+
+#product2{
+    background-color: teal;
+    color: white;
+}
+
+#product3{
+    background-color: tan;
+    color: white;
+}
+
+#product4{
+    background-color: rgb(53, 53, 41);
+    color: white;
+}
+
+.Blog{
+    display: flex;
+    gap: 250px;
+    flex-wrap: wrap;
+}
+
+.Blog1 {
+    background-color: white;
+    width: 600px;
+    font-weight: 800;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+.Blog1:hover{
+    animation: shake 0.5s;
+    transform: scale(1.1);
+    transform: translateY(-10px);
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+#blog1{
+    background-color: rgb(221, 132, 132);
+    color: white;
+}
+
+#blog2{
+    background-color: rgb(56, 31, 31);
+    color: white;
+}
+
+#blog3{
+    background-color: rgb(199, 57, 57);
+    color: white;
+}
+
+#blog4{
+    background-color: rgb(116, 17, 17);
+    color: white;
+}
+
